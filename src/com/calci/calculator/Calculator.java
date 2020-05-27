@@ -23,7 +23,7 @@ public class Calculator {
             btnMul, btn4, btn5, btn6, btnSub, btn1, btn2, btn3, btnAdd, btnPoint, btn0, btnEqual, btnRoot, btnPower, btnLog, btnSwitchThemes, btnSwitchToScientificMode;
     private char opt = ' '; // Save the operator
     private boolean go = true; // For calculate with Opt != (=)
-    private boolean addWrite = true; // Racordé des Nombres dans l'Affichage
+    private boolean addWrite = true; 
     private double val = 0; // Save value typed for calculation
     private boolean isToggleColorSelected = false;
     private boolean isScientificMode = false;
@@ -549,7 +549,7 @@ public class Calculator {
 
         window.setLayout(null);
         window.setResizable(false);
-        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // If Click into The Red Button => End The Processus
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // If Click into The Red Button => End The Process
         window.setVisible(true);
     }
 
